@@ -24,7 +24,7 @@ public class HealthAIProPlus {
 
     // === CONFIG ===
     private static final int PORT = 8080;
-    private static final String GEMINI_API_KEY = "AIzaSyBBI6twCxfsVBWEgzqu4Gma-eQ8cx3wiOw"; // <-- put key here
+    private static final String GEMINI_API_KEY = ""; // <-- put key here
     private static final String GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY;
 
 
@@ -376,3 +376,4 @@ public class HealthAIProPlus {
         return sb.toString().trim();
     }
 }
+
